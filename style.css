@@ -169,6 +169,7 @@ body {
   font-weight: 700;
   font-size: 50px;
   margin-bottom: 0;
+  color: #bb371a;
 }
 .youtube {
   width: 30%;
@@ -185,13 +186,13 @@ body {
 /* social sites ends here */
 
 /* extra contents here */
-/* ONE */
+/* ONE - food story*/
 
 .food-story {
-  padding: 50px 0;
+  padding: 90px 0;
   overflow: hidden;
   text-align: center;
-  background-image: url(images/shapes/food-cover.png);
+  background-image: url(images/food/foodcover.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -200,22 +201,23 @@ body {
   color: salmon;
 }
 .food-story .story-link p {
-  padding-bottom: 50px;
-  color: rgb(42, 42, 42);
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: white;
+  font-weight: 400;
   font-size: 18px;
 }
 .food-story .story-link a {
   font-weight: bold;
   text-decoration: none;
   color: white;
-  padding: 8px 30px;
-  border-radius: 25px;
+  padding: 10px 35px;
+  border-radius: 35px;
   display: inline-block;
-  filter: drop-shadow(1px 1px 2px #8b4029);
-  background-image: linear-gradient(to right, #cbaca0, #8b4029);
+  background-image: linear-gradient(to right, #ce82bc, #bb371a);
 }
 
-/* TWO */
+/* TWO - faq */
 
 .faq {
   padding: 80px 0;
@@ -238,6 +240,9 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+.qw-ans div {
+  padding: 40px;
+}
 .qw-ans h3 {
   color: #fba24f;
 }
@@ -250,10 +255,10 @@ body {
   padding: 20px;
 }
 
-/* THREE */
+/* THREE - subscribe*/
 
 .subscribe-area {
-  padding: 80px 0;
+  padding: 100px 0;
   overflow: hidden;
   text-align: center;
 }
@@ -261,22 +266,31 @@ body {
   margin-bottom: 30px;
 }
 .subscribe-area h2 {
-  color: #43121d;
+  color: black;
   font-size: 34px;
+}
+.subscribe-area .subscribe-intro p {
+  width: 50%;
+  margin: auto;
+}
+.subscribe-area .subscribe-intro a {
+  text-decoration: none;
+  color: #bb371a;
+  font-weight: bold;
 }
 .subscribe-area .form input[type="email"] {
   padding: 10px 40px;
   margin-right: 20px;
-  border: 1px solid #43121d;
+  border: 1px solid;
 }
 
 .subscribe-area .form input[type="submit"] {
   padding: 10px 40px;
-  border: 1px solid #43121d;
+  border: 1px solid #bb371a;
   cursor: pointer;
   color: white;
   font-weight: bold;
-  background-image: linear-gradient(to right, #ac7270, #43121d);
+  background-image: linear-gradient(to right, #ac7270, #bb371a);
 }
 /* extra contents ends here */
 
@@ -291,16 +305,16 @@ body {
   margin-bottom: 45px;
 }
 .footer-area .quotes h2 {
-  color: white;
-  font-size: 60px;
+  color: rgb(167, 167, 167);
+  font-size: 50px;
   margin-bottom: 0;
 }
 .footer-area .quotes p {
   color: white;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
 }
 .footer-area p {
-  color: yellow;
+  color: orangered;
   font-size: 12px;
 }
