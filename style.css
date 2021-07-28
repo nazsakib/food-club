@@ -144,7 +144,7 @@ body {
 .recipe-items img {
   border-radius: 15px;
   width: 100%;
-  height: 300px;
+  height: auto;
   margin-bottom: 40px;
 }
 /* recipe area ends here */
@@ -185,7 +185,6 @@ body {
 /* social sites ends here */
 
 /* extra contents here */
-
 /* ONE */
 
 .food-story {
