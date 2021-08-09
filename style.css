@@ -43,6 +43,18 @@ body {
   filter: drop-shadow(1px 1px 2px #ff1e1e);
   background-image: linear-gradient(to right, #fba24f, #ff1e1e);
 }
+
+/* hover added - 10/08/2021 */
+
+.description a:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(240, 35, 12),
+    rgb(134, 53, 38)
+  );
+}
+
+/* end */
 .image-area {
   float: right;
   overflow: hidden;
@@ -94,6 +106,18 @@ body {
   filter: drop-shadow(1px 1px 2px #261ccc);
   background-image: linear-gradient(to right, #7a74e0, #261ccc);
 }
+
+/* hover added - 10/08/2021 */
+
+.introduction a:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(12, 35, 240),
+    rgb(38, 44, 134)
+  );
+}
+
+/* end */
 /* about-area ends here */
 
 /* recipe area starts from here */
@@ -183,6 +207,14 @@ body {
   width: 30%;
   height: auto;
 }
+
+/* link added in youtube, instagram and dribbble - 10/08/2021 */
+.social a {
+  text-decoration: none;
+  color: #bb371a;
+}
+/* end */
+
 /* social sites ends here */
 
 /* extra contents here */
@@ -216,6 +248,18 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, #ce82bc, #bb371a);
 }
+
+/* hover added - 10/08/2021 */
+
+.story-link a:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(240, 12, 118),
+    rgb(189, 54, 31)
+  );
+}
+
+/* end */
 
 /* TWO - faq */
 
@@ -292,6 +336,18 @@ body {
   font-weight: bold;
   background-image: linear-gradient(to right, #ac7270, #bb371a);
 }
+
+/* hover added - 10/08/2021 */
+
+.subscribe-area .form input[type="submit"]:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(192, 192, 12),
+    rgb(99, 105, 10)
+  );
+}
+
+/* end */
 /* extra contents ends here */
 
 /* footer-area starts from here */
@@ -318,3 +374,4 @@ body {
   color: orangered;
   font-size: 12px;
 }
+/* footer-area starts ends */
